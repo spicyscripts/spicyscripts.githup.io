@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background: black;
+    height: 100px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo {
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.logo img {
+    width: 130px;
+    background: white;
+
+
+}
+
+h3 {
+    color: white;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 19px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.9s;
+}
+
+nav ul li a:hover {
+    color: limegreen;
+}
+
+span {
+    margin: 25px;
+}
+
+.hero {
+    background-image: url(img/jair-medina-nossa--7Kkov230I0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.hero-section {
+    text-align: center;
+    padding-top: 17%;
+}
+
+.hero-section h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.hero-section a {
+    color: white;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.container {
+    background: white;
+    height: 40vh;
+}
+
+.container-section {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+
+.container-section h3 {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.container-section p {
+    font-size: 15px;
+    color: black;
+}
+
+.icon-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.icon-download a {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.icon-download img {
+    width: 180px;
+    border-radius: 33px;
+
+}
+
+.box {
+    background: url(img/theregisti-nVHjpMbCPGI-unsplash.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-section {
+
+    padding-top: 26%;
+}
+
+.box-section h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.box-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-list ul li {
+    color: white;
+    margin: 10px;
+
+}
+
+.box-list ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section {
+    width:100%;
+
+    background: black;
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container {
+    margin-left: 40px;
+
+}
+
+.footer-container img {
+    width: 200px;
+    margin-bottom: 150px;
+}
+
+.footer-list {
+    margin-top: 40px;
+}
+
+.footer-list h3 {
+    color: grey;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    margin: 15px;
+    transition: 0.5s ease-in;
+
+
+}
+
+.footer-list a:hover {
+    color: lime;
+
+
+}
+
+.icon-links i {
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+    background: rgb(45, 43, 43);
+    border-radius: 50%;
+    padding: 20px 20px;
+    margin-bottom: 150px;
+    transition: 0.6s ease-in-out;
+}
+
+.icon-links i:hover {
+    scale: 1.0;
+    background: white;
+    color: black;
+}
+footer{
+    background:black;
+    height:90px;
+}
+.last-footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:20px;
+}
+.last-footer ul li a {
+    font-size:13px;
+    font-weight: 400;
+    color:grey;
+    margin:10px;
+    padding:10px;
+    text-transform: capitalize;
+    transition:0.7s ease-in-out;
+}
+.Nigeria a{
+    text-decoration:none;
+    color :grey;
+    line-height: 40px;
+
+}
+.Nigeria p {
+    color:grey;
+}
+.last-footer a:hover {
+    color:lime;
+
+}
